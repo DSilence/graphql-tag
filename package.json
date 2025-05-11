@@ -36,6 +36,13 @@
   "dependencies": {
     "tslib": "^2.1.0"
   },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js",
+      "require": "./main.js"
+    }
+  },
   "devDependencies": {
     "@types/chai": "^4.2.14",
     "@types/mocha": "^8.2.0",
